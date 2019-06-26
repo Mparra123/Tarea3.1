@@ -196,9 +196,10 @@ public class Convert_Activity extends AppCompatActivity {
     /*
     * CONVERT DATA FROM EACH COUNTRY VALUE EDIT TEXT
     *
+    * Beginning of the convert method for each country.
     * */
 
-
+    //Dollar to Euro
     public void convertToEuro(String txt) throws IOException, JSONException {
 
 
@@ -224,7 +225,7 @@ public class Convert_Activity extends AppCompatActivity {
 
         Response=null;//testing in order to set the values to 0
     }
-
+    // Dollar to Peso
     public void convertToMexico(String txt) throws IOException, JSONException {
 
 
@@ -244,6 +245,7 @@ public class Convert_Activity extends AppCompatActivity {
 
         Response=null;
     }
+    //Dollar to colon
     public void convertToColones(String txt) throws IOException, JSONException {
 
 //Json interaction

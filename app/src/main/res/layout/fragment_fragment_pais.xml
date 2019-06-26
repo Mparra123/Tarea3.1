@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragmements.FragmentPais">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/lblMxn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/lblMX"
+        />
+
+
+    <EditText
+        android:id="@+id/txtMXN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pesos Mexicanos"/>
+
+    <TextView
+        android:id="@+id/lblCRC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/lblCR"
+        />
+
+
+    <EditText
+        android:id="@+id/txtCRC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Colones"/>
+
+    <TextView
+        android:id="@+id/lblEu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/lblEU"
+        />
+
+    <EditText
+        android:id="@+id/txtEU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Euros"/>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnChange"
+        />
+
+
+</LinearLayout>

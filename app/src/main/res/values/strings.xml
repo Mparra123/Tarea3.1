@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tarea#3_Convert</string>
+
+    <!-- Login page strings -->
+    <string name="lblName"> Digite su nombre: </string>
+    <string name="lblPassword"> Digite su Clave: </string>
+    <string name="btnStart"> Inicio </string>
+    <string name="title_activity_convert_">Convert</string>
+
+
+    <!-- convert page activity strings -->
+
+    <string name="lblUS"> USD </string>
+    <string name="lblMX"> MXN </string>
+    <string name="lblCR"> CRC </string>
+    <string name="lblEU"> EUR </string>
+    <string name="btnChange">Cambiar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
